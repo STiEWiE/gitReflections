@@ -1,1 +1,26 @@
-What happens when you initialize a repository? Why do you need to do it?
+	What happens when you initialize a repository? Why do you need to do it?
+		So that git can become aware of this new repo, and start version control / give special access to the git application to this folder and everything within.
+
+	How is the staging area different from the working directory and the repository?
+	What value do you think it offers?
+		Gives you the ability to have other people test your code before pushing it to the master branch.
+
+	How can you use the staging area to make sure you have one commit per logical
+	change?
+
+		By working on a piece of code in staging and comitting when that one piece is done, then moving on to a different issue / piece of code.
+
+	What are some situations when branches would be helpful in keeping your history
+	organized? How would branches help?
+		When multiple people are working together, they can all check out the code and work on their branches, have testing teams for when you start merging code and work betteer and easier as a team to update / make new code :>
+
+	How do the diagrams help you visualize the branch structure?
+		Drawing a logical view of where you stand in the code base is always a good idea when using version control, as you can plan to either commit, merge, branch on a spesific commit etc.
+
+	What is the result of merging two branches together? Why do we represent it in
+	the diagram the way we do?
+		We added all the commits we made to that branch to master, so after all the work was done to perfect the code, we pushed that code into our main branch to update the game without breaking the master branch should something have gone wrong in the coin branch.
+
+	What are the pros and cons of Git's automatic merging vs. always doing merges
+	manually?
+
