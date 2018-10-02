@@ -24,3 +24,5 @@
 	What are the pros and cons of Git's automatic merging vs. always doing merges
 	manually?
 
+		It picks up changes to certain parts of your code and merges everything for you, instead of you having to change each line of code in the master branch after working on a different branch.
+		It will also notify you when there are multiple changes to a file, so you can manually choose which block of code to keep.
